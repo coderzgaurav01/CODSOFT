@@ -1,4 +1,4 @@
-# We will call random module to choose random characters
+# We will call random module to choose random character
 import random
 #we will define here what characters we are going to use in password
 password = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()_-+=:/?><.,"
