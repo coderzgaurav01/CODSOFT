@@ -1,7 +1,7 @@
 tasks = []
 
 def addtask():
-    task = input("enter the task")
+    task = input("Enter the task:")
     tasks.append(task)
     print(f"Task '{task}' added to the list.")
 
@@ -30,7 +30,7 @@ if __name__=="__main__":
         print("3. Delete Task ")
         print("4. Quit")
         
-        choice=int(input("Enter your choice"))
+        choice=int(input("Enter your choice:"))
         
         if(choice == 1):
            addtask()
